@@ -13,8 +13,8 @@
     {
       "name": "Correction contenu fichier",
       "setup": "",
-      "run": "python main.py",
-      "input": "3 4 ",
+      "run": "python main.py 3 4",
+      "input": "",
       "output": "5",
       "comparison": "included",
       "timeout": 10,
