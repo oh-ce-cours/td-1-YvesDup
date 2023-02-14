@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Correction TD1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Correction contenu fichier",
+      "setup": "",
+      "run": "python main.py",
+      "input": "3 4 ",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
